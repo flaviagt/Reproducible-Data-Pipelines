@@ -1,0 +1,12 @@
+[project]
+name = "reproducible-data-pipelines"
+version = "0.1.0"
+description = "A local DVC pipeline for cleaning, transforming, and featurizing event data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "altair>=5.5.0",
+    "dvc>=3.59.0",
+    "marimo>=0.13.0",
+    "pandas>=2.2.0",
+]
